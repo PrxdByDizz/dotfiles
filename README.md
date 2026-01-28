@@ -24,3 +24,7 @@ fastfetch
 spicetify
 spotify-adkiller-git
 firefox-nightly-bin
+
+Font used is Departure Mono:
+You can see it at 
+Departuremono.com
