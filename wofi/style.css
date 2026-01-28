@@ -1,0 +1,70 @@
+* {
+  font-family: Departure Mono;
+  font-size: 18px;
+  background: transparent;
+  color: #ffffff;
+}
+
+#window {
+  color: #ffffff;
+  border-color: #ffffff;
+  border-style: solid;
+  border-width: 2px;
+
+  /*Linear gradient background instead of standard background, because it makes cleaner border-radius cuts, issa bug :p*/
+  background-image: linear-gradient(to bottom, #000000 100%);
+  border-radius: 0px;
+}
+#scroll {
+  border-top-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+}
+#inner-box {
+  padding-top: 12px;
+}
+#entry {
+  border-style: none;
+  border-color: #ffffff;
+  color: #ffffff;
+  padding: 5px;
+  margin-bottom: 8px;
+  margin-left: 12px;
+  margin-right: 12px;
+
+  border-radius: 12px;
+}
+
+#entry:selected {
+  background: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  outline: none;
+}
+
+#input {
+  background-color: #000000;
+  color: #ffffff;
+  border-color: #ffffff;
+
+  border-style: none;
+  border-bottom-style: solid;
+
+  font-style: italic;
+
+  border-radius: 8px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+
+  padding: 12px;
+  margin: 8px;
+}
+#input:focus {
+  background: #000000;
+  background-color: #000000;
+}
+
+#img {
+  padding: 4px;
+  margin-right: 6px;
+}

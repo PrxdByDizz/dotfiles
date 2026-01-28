@@ -15,6 +15,7 @@ dolphin
 Dependencies:
 
 dolphin
+btop
 yay
 pulsemixer
 swww
